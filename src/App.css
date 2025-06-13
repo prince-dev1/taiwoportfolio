@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 } */
+ /* ...existing code... */
+
+body {
+  background-color: #181818; /* dark background */
+  color: #f1f1f1;           /* light text */
+}
+
+.card {
+  background-color: #232323 !important;
+  color: #f1f1f1;
+  border: none;
+}
+
+footer.bg-dark {
+  background-color: #111 !important;
+}
+
+/* Optional: Adjust link/button colors for dark mode */
+a.btn-outline-primary {
+  color: #90caf9;
+  border-color: #90caf9;
+}
+a.btn-outline-primary:hover {
+  background-color: #90caf9;
+  color: #181818;
+}
+.animate__animated {
+  animation-duration: 2s;
+}
+.name-heading{
+  font-size: clamp(2rem, 6vw, 3rem);
+  word-break: break-word;
+}
+h2{
+  color:aquamarine;
+}
+h3{
+  color:cadetblue
+}
+/* ...existing code... */
