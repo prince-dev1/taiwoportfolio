@@ -7,6 +7,7 @@ import surveyImg from "./surveyform.jpeg";
 import churchImg from "./churchweb.png";
 import cateringImg from "./catering.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "animate.css";
 import "./App.css";
 
@@ -117,10 +118,10 @@ function App() {
       rel="noreferrer"
     >
       View Live
-    </a>
-    </div>
-    </div>
-  </div>
+        </a>
+       </div>
+      </div>
+     </div>
   
   <div className="row justify-content-center">
   <div className="col-md-6 col-lg-4 mb-4">
@@ -200,24 +201,24 @@ function App() {
 
       {/* Contact Section */}
       <section className="container mb-5" id="contact">
-  <h2 className="mb-3">Contact</h2>
-  <ul className="list-unstyled">
-    <li>
-      <i className="bi bi-envelope-fill me-2"></i>
-      Email: olonijutaiwo@gmail.com
-    </li>
-    <br />
-    <li>
-      <i className="bi bi-telephone-fill me-2"></i>
-      Phone: +234-810-310-8279
-    </li>
-    <br />
-    <li>
-      <i className="bi bi-whatsapp me-2"></i>
-      WhatsApp: +234-810-310-8279
-    </li>
-  </ul>
-</section>
+        <h2 className="mb-3">Contact</h2>
+         <ul className="list-unstyled">
+          <li>
+           <i className="bi bi-envelope-fill me-2"></i>
+             Email: olonijutaiwo@gmail.com
+          </li>
+             <br />
+           <li>
+            <i className="bi bi-telephone-fill me-2"></i>
+             Phone: +234-810-310-8279
+           </li>
+            <br />
+            <li>
+            <i className="bi bi-whatsapp me-2"></i>
+              WhatsApp: +234-810-310-8279
+              </li>
+              </ul>
+      </section>
 
       {/* Footer */}
       <footer className="text-center text-white bg-dark py-3 rounded">
